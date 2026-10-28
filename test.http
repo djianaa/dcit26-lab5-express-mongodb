@@ -1,0 +1,13 @@
+GET http://localhost:5001/api/health
+
+POST http://localhost:5001/api/students
+Content-Type: application/json
+
+{
+  "fullName": "Alex Santos",
+  "course": "BSIT",
+  "yearLevel": 2,
+  "section": "IT-2A"
+}
+
+GET http://localhost:5001/api/students
